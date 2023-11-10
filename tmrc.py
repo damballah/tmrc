@@ -142,7 +142,7 @@ run_command(cmd)
 
 print("")
 print("Step 4 - Test the configuration")
-run_command("unattended-upgrade --debug")
+# run_command("unattended-upgrade --debug")
 
 print("")
 print("Step 5 - install apt-transport-https")
