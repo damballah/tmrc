@@ -131,7 +131,7 @@ run_command("apt update")
 
 print("")
 print("Step 2 - install unattended upgrades")
-run_command("apt-get install unattended-upgrades apt-listchanges")
+run_command("yes | apt-get install unattended-upgrades apt-listchanges")
 
 print("")
 print("Step 3 - copy 50unattended-upgrades to the destination folder")
@@ -146,7 +146,7 @@ print("Step 4 - Test the configuration")
 
 print("")
 print("Step 5 - install apt-transport-https")
-run_command("apt install apt-transport-https")
+run_command("yes | apt install apt-transport-https")
 
 print("")
 print("Step 6 - get the version of distribution in a file")
@@ -181,7 +181,7 @@ time.sleep(5)
 print("")
 print("Step 10 - apt update and apt install tor deb.torproject.org-keyring")
 run_command("apt update")
-run_command("apt install tor deb.torproject.org-keyring")
+run_command("yes | apt install tor deb.torproject.org-keyring")
 print("Pause 5 sec...")
 time.sleep(5)
 
@@ -209,7 +209,7 @@ run_command("systemctl restart tor")
 
 print("")
 print("Open the port : " + portOfRelay + " ...")
-cmd1="sudo apt install ufw"
+cmd1="yes | apt install ufw"
 
 print("Pause 5 sec...")
 time.sleep(5)
