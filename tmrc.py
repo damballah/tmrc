@@ -175,15 +175,10 @@ print("")
 print("Step 9 - Get the good version of Tor with the gpg key")
 run_command("wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/tor-archive-keyring.gpg >/dev/null")
 
-print("Pause 5 sec...")
-time.sleep(5)
-
 print("")
 print("Step 10 - apt update and apt install tor deb.torproject.org-keyring")
 run_command("apt update")
 run_command("yes | apt install tor deb.torproject.org-keyring")
-print("Pause 5 sec...")
-time.sleep(5)
 
 print("")
 print("Step 11 - Copying the local torrc file to the destination folder and configure the tor middle node")
@@ -211,8 +206,6 @@ print("")
 print("Open the port : " + portOfRelay + " ...")
 cmd1="yes | apt install ufw"
 
-print("Pause 5 sec...")
-time.sleep(5)
 run_command(cmd1)
 
 cmd2="sudo ufw allow " + portOfRelay
