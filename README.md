@@ -5,8 +5,10 @@
 
 Requirements:
 
-- All updates must be made. 
-- Then, clone the following git with the command:
+All updates must be made. 
+
+Instructions:
+- Clone the following git with the command:
 ```sh
 git clone https://github.com/damballah/tmrc 
 ```
