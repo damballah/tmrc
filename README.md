@@ -13,7 +13,11 @@ Concept:
 <br>
 Requirements:
 
-All updates must be made. 
+All updates must be made :
+```sh
+sudo apt update
+sudo apt upgrade
+```
 
 <br>
 Instructions:
