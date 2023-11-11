@@ -21,14 +21,17 @@ sudo apt upgrade
 
 <br>
 Instructions:
+
 - Clone the following git with the command:
 ```sh
 git clone https://github.com/damballah/tmrc 
 ```
+
 - Then, go to the folder : tmrc and run the python file like this :
 ```sh
 python3 tmrc.py
 ```
+
 - Then, follow the instructions (only 4), then let the script do its thing. 
 
 At the end, it will indicate that the monitoring [NYX] for your Middle Tor node is ready, 
