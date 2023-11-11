@@ -8,7 +8,7 @@ Requirements:
 - All updates must be made. 
 - Then, clone the following git with the command:
 ```sh
-git clone https://github.com/damballah/tmrc . 
+git clone https://github.com/damballah/tmrc 
 ```
 - Then, go to the folder : tmrc and run the python file like this :
 ```sh
