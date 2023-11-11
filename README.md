@@ -7,7 +7,7 @@ Concept:
 
 - Automatic installation of Tor
 - Automatic configuration of a middle node
-- Automatic installation of a monitoring tools NYX
+- Automatic installation of the monitoring tool NYX
 
 
 Requirements:
