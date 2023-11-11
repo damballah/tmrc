@@ -3,6 +3,13 @@
 
 **Tested on Debian 12.**
 
+Concept:
+
+- Automatic installation of Tor
+- Automatic configuration of a middle node
+- Automatic installation of a monitoring tools NYX
+
+
 Requirements:
 
 All updates must be made. 
@@ -22,7 +29,7 @@ At the end, it will indicate that the monitoring [NYX] for your Middle Tor node 
 
 all you have to do is type : 
 ```sh
-niyx
+nyx
 ```
 to run it. 
 
