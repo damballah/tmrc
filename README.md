@@ -10,12 +10,12 @@ Concept:
 - Automatic installation of the monitoring tool NYX
 
 
-
+<br>
 Requirements:
 
 All updates must be made. 
 
-
+<br>
 Instructions:
 - Clone the following git with the command:
 ```sh
