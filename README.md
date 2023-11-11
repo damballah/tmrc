@@ -47,3 +47,10 @@ site: https://metrics.torproject.org/rs.html to see your node working.
 (Sometimes, more than 5 hours are needed to see your node appear in the list).
 
 #### Enjoy ;)
+
+Thanks and credit to :
+```sh
+https://academy.networkchuck.com/blog/run-a-tor-relay
+```
+
+
